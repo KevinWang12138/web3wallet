@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node src/app/privateManage.test.js"
   },
   "dependencies": {
     "bootstrap-icons": "^1.13.1",
